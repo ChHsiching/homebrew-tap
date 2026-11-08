@@ -9,13 +9,13 @@
 cask "bongo-cat-todo" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.3.1"
+  version "1.4.0"
 
   on_arm do
-    sha256 "46619e8fbaf481eb88bf78c783283ed2332826fdcb045b6089318ccc728e4a67"
+    sha256 "dedab2f88845b19781002f7fd7c8181e806642d2bd5616f064c25f3bb8f3ed52"
   end
   on_intel do
-    sha256 "1471da2da860b3d035abad0a1523652ad24d9d4ee1a07ff12c37944bf1501699"
+    sha256 "2f7c6590d6019ba20d6e6b87f872b7d237270b3ed8f43ae2016030d72ce1f06f"
   end
 
   url "https://github.com/ChHsiching/bongocat-todo/releases/download/v#{version}/BongoCat.Todo_#{version}_#{arch}.dmg",
